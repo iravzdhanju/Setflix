@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.css";
 function Nav() {
+  const [show, handleShow] = useState(false);
+
+  const transtitionNavBar = () => {
+    if (window.scrollY > 100) {
+      handleShow(true);
+    } else {
+      handleShow(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", transtitionNavBar);
+    return () => window.removeEventListener("scroll", transtitionNavBar);
+  }, []);
+
   return (
-    <div className="nav nav_black">
+    <div className={`nav ${show && "nav_black"}`}>
       <div className="nav_Contents">
         <img
           className="nav_logo"
