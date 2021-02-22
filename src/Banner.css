@@ -49,3 +49,7 @@
   background-color: #e6e6e6;
   transition: all 0.3s;
 }
+.banner > img{
+  filter: blur(3px);
+  
+}
