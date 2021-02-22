@@ -8,6 +8,6 @@ function App() {
       <Homescreen />
     </div>
   );
-}
+} 
 
 export default App;
