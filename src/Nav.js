@@ -2,7 +2,7 @@ import React from 'react';
 import './Nav.css';
 function Nav() {
   return (
-    <div className='nav'>
+    <div className='nav nav_black'>
       <div className='nav_Contents'>
         <img
           className='nav_logo'
