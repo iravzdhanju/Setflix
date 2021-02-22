@@ -52,9 +52,23 @@
 .banner > img {
   filter: blur(3px);
   animation: fadeIn 1s ease-in 0.01s;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 .banner {
   animation: fadeIn 1s ease-in 0.01s;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 .banner_title {
   animation: fadeIn 1.4s ease-in 0.01s;
