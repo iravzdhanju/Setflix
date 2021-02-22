@@ -5,8 +5,33 @@ function Homescreen() {
   return (
     <div className='homescreen'>
       {/* NAV */}
-      <Nav/>
+      <Nav />
       {/* Banner */}
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
+      <h1>as</h1>
     </div>
   );
 }
