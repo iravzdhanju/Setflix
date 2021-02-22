@@ -30,4 +30,29 @@
   width: 100%;
   z-index: 1;
   height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.loginScreen_Body > h1 {
+  font-size: 3.125rem;
+  margin-left: 20px;
+}
+.loginScreen_Body {
+  position: absolute;
+  top: 30%;
+  z-index: 3;
+  color: #fff;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginScreen_Body > h2 {
+  font-size: 2rem;
+  font-weight: 410;
+  margin-bottom: 30px;
 }

@@ -10,7 +10,11 @@ function LoginScreen() {
           alt='loginImage'
         />
         <button className='loginScreen_Button'>SignIn</button>
-        <div className='loginScreen_Gradient' />
+        <div className='loginScreen_Gradient'></div>
+        <div className='loginScreen_Body'>
+          <h1>Unlimited films, TV Programmes and more.</h1>
+          <h2>Watch anywhere, Cancel at any time</h2>
+        </div>
       </div>
     </div>
   );
