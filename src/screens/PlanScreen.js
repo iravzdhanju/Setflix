@@ -9,9 +9,10 @@ function PlanScreen() {
       .get()
       .then((querySnapshot) => {
         const products = {};
-        querySnapshot.forEach(async productDoc=>{
-            products.
-        })
+        querySnapshot.forEach(async (productDoc) => {
+          products[productDoc.id] = productDoc.data();
+          const 
+        });
       });
   }, []);
   return <div className='planScreen'></div>;
