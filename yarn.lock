@@ -1800,6 +1800,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stripe/stripe-js@stripe/stripe-js":
+  version "1.13.0"
+  resolved "https://codeload.github.com/stripe/stripe-js/tar.gz/ea25de6b817f8b2ae6ff557b34216a4017d0ec41"
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-1.4.2.tgz#e6786b6af5799f82f7ab3a82e53f6182d2b91a58"
