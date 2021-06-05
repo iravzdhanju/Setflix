@@ -23,7 +23,7 @@ function Nav() {
         <img
           onClick={() => history.push("/")}
           className='nav_logo'
-          src='https://logos-download.com/wp-content/uploads/2016/03/Netflix_logo.png'
+          src='https://i.imgur.com/0fdX2Vq.png'
           alt=''
         />
 
