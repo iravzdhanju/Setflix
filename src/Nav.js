@@ -23,7 +23,7 @@ function Nav() {
         <img
           onClick={() => history.push("/")}
           className='nav_logo'
-          src='https://i.imgur.com/0fdX2Vq.png'
+          src=https://raw.githubusercontent.com/iravzdhanju/Image/main/JattFlix%20Logo.png'
           alt=''
         />
 
