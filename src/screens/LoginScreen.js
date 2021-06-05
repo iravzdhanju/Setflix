@@ -8,7 +8,7 @@ function LoginScreen() {
       <div className='loginScreen_Background'>
         <img
           className='loginScreen_Logo'
-          src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png'
+          src='https://raw.githubusercontent.com/iravzdhanju/Image/main/JattFlix%20Logo.png'
           alt='loginImage'
         />
         <button className='loginScreen_Button' onClick={() => setSignIn(true)}>
